@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" android:layout_weight="0.67">
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:gravity="right"
+            android:paddingRight="10sp"
+            android:paddingTop="5sp"
+            android:textSize="15pt"
+            android:textStyle="bold"
+            tools:ignore="LabelFor,NestedWeights,RtlHardcoded,RtlSymmetry"
+            android:autofillHints=" "
+            android:inputType="number" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/buttoncls"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="5"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/clear"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_7"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_8"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_9"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/buttondiv"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1.15"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/div"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="@string/_4"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_5"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_6"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/buttonmul"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight=".98"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/multil"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_1"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_2"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_3"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1.27"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/sub"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1.22"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/dec"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight=".98"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/_0"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/buttoneql"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight=".95"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/eql"
+            style="?android:attr/buttonBarButtonStyle" />
+
+
+        <Button
+            android:id="@+id/buttonadd"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight=".93"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="@string/add"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>
